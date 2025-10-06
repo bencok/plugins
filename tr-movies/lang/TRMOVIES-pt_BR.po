@@ -1,0 +1,1259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tr Movies 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-24 19:05+0200\n"
+"PO-Revision-Date: 2017-10-10 23:33+0200\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Language-Team: Torothemes <torothemes@gmail.com>\n"
+
+#: tr-movies.php:41 tr-movies.php:468
+msgid "episode"
+msgstr "episódio"
+
+#: tr-movies.php:41 tr-movies.php:465
+msgid "season"
+msgstr "temporada"
+
+#: tr-movies.php:55
+msgid "Movies"
+msgstr "Filmes"
+
+#: tr-movies.php:58
+msgid "TV Shows"
+msgstr "Séries"
+
+#: tr-movies.php:83 tr-movies.php:118 tr-movies.php:867 tr-movies.php:892
+#: tr-movies.php:917 tr-movies.php:942 tr-movies.php:964 tr-movies.php:986
+#: tr-movies.php:1011 tr-movies.php:1034 tr-movies.php:1056 tr-movies.php:1078
+#: tr-movies.php:1100 inc/movies/show_movie.php:120
+#: inc/movies/show_movie.php:137 inc/tvshows/show_tvshow.php:112
+#: inc/tvshows/show_tvshow.php:128
+msgid "All"
+msgstr "Todos"
+
+#: tr-movies.php:84 inc/movies/add_movie.php:24 inc/movies/add_movie.php:229
+msgid "Add Movie"
+msgstr "Adicionar Filme"
+
+#: tr-movies.php:85 tr-movies.php:120 tr-movies.php:961 tr-movies.php:971
+#: inc/movies/add_movie.php:124 inc/movies/edit_movie.php:112
+#: inc/tax/directors/directors.php:8 inc/tax/directors_tv/directors.php:8
+#: inc/tvshows/add_tvshow.php:129 inc/tvshows/edit_tvshow.php:401
+msgid "Directors"
+msgstr "Directores"
+
+#: tr-movies.php:86 tr-movies.php:121 tr-movies.php:983 tr-movies.php:984
+#: tr-movies.php:993 inc/movies/add_movie.php:98 inc/movies/edit_movie.php:85
+#: inc/tax/cast/cast.php:8 inc/tax/cast_tv/cast.php:8
+#: inc/tvshows/add_tvshow.php:103 inc/tvshows/edit_tvshow.php:343
+msgid "Cast"
+msgstr "Elenco"
+
+#: tr-movies.php:87 tr-movies.php:939 tr-movies.php:949
+#: inc/movies/add_movie.php:176 inc/movies/edit_movie.php:166
+#: inc/tax/countries/countries.php:8
+msgid "Countries"
+msgstr "Países"
+
+#: tr-movies.php:89 tr-movies.php:123 inc/tvshows/edit_tvshow.php:197
+msgid "Links"
+msgstr "Links"
+
+#: tr-movies.php:91 tr-movies.php:125 tr-movies.php:864 tr-movies.php:874
+#: inc/tax/servers/servers.php:8 inc/tax/servers_tv/servers.php:8
+msgid "Servers"
+msgstr "Servidores"
+
+#: tr-movies.php:92 tr-movies.php:126 tr-movies.php:889 tr-movies.php:899
+#: inc/tax/languages/languages.php:8 inc/tax/languages_tv/languages.php:8
+msgid "Languages"
+msgstr "Idiomas"
+
+#: tr-movies.php:93 tr-movies.php:127 inc/tax/qualitys/qualitys.php:8
+#: inc/tax/qualitys_tv/qualitys.php:8
+msgid "Qualitys"
+msgstr "Qualidades"
+
+#: tr-movies.php:119 inc/tvshows/add_tvshow.php:23
+#: inc/tvshows/add_tvshow.php:226
+msgid "Add Tv Show"
+msgstr "Adicionar Série"
+
+#: tr-movies.php:234
+msgid "You can not empty fields"
+msgstr "Você não pode deixar campos vazios"
+
+#: tr-movies.php:314
+msgid "General"
+msgstr "Geral"
+
+#: tr-movies.php:315
+msgid "Advanced"
+msgstr "Avançado"
+
+#: tr-movies.php:323
+msgid "API KEY"
+msgstr "API KEY (TMDB)"
+
+#: tr-movies.php:324
+msgid "Get API Key"
+msgstr "Obter API Key"
+
+#: tr-movies.php:328
+msgid "Upload images"
+msgstr "Enviar imagens"
+
+#: tr-movies.php:332
+msgid "Enable"
+msgstr "Ativar"
+
+#: tr-movies.php:334
+msgid "Disable"
+msgstr "Desativar"
+
+#: tr-movies.php:341
+msgid "Field Trailer"
+msgstr "Trailer"
+
+#: tr-movies.php:346
+msgid "Field Title Original"
+msgstr "Título Original"
+
+#: tr-movies.php:351
+msgid "Field ID"
+msgstr "Campo ID"
+
+#: tr-movies.php:356
+msgid "Field IMDBID"
+msgstr "Campo IMDBID"
+
+#: tr-movies.php:361
+msgid "Field Date"
+msgstr "Data"
+
+#: tr-movies.php:366
+msgid "Field Duration"
+msgstr "Duração"
+
+#: tr-movies.php:371
+msgid "Field Backdrop"
+msgstr "Plano de Fundo"
+
+#: tr-movies.php:376
+msgid "Slug Directors"
+msgstr "Slug Diretores"
+
+#: tr-movies.php:381
+msgid "Slug Directors TV"
+msgstr "Slug Diretores Séries"
+
+#: tr-movies.php:386
+msgid "Slug Cast"
+msgstr "Slug Elenco"
+
+#: tr-movies.php:391
+msgid "Slug Cast TV"
+msgstr "Slug Elenco Séries"
+
+#: tr-movies.php:396
+msgid "Slug Episode"
+msgstr "Slug Episódio"
+
+#: tr-movies.php:401
+msgid "Slug Season"
+msgstr "Slug Temporada"
+
+#: tr-movies.php:406
+msgid "Field Links"
+msgstr "Links"
+
+#: tr-movies.php:415
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: tr-movies.php:501 tr-movies.php:1310
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: tr-movies.php:506
+msgid "Upload backdrop"
+msgstr "Fazer upload do plano de fundo"
+
+#: tr-movies.php:507
+msgid "I can not delete this item."
+msgstr "Não consigo excluir este item."
+
+#: tr-movies.php:559
+msgid ""
+"<div class=\"trmovieswarning trmoviesnotsupport\">Remember to update or "
+"publish your post or all your links will be lost.</div>"
+msgstr ""
+"<div class=\"trmovieswarning trmoviesnotsupport\">Lembre-se de atualizar ou "
+"publicar sua postagem ou todos os seus links serão perdidos.</div>"
+
+#: tr-movies.php:662 tr-movies.php:669 tr-movies.php:685 tr-movies.php:701
+#: tr-movies.php:735 tr-movies.php:742 tr-movies.php:758 tr-movies.php:774
+#: inc/movies/edit_movie.php:279 inc/movies/edit_movie.php:286
+#: inc/movies/edit_movie.php:302 inc/movies/edit_movie.php:318
+#: inc/movies/edit_movie.php:352 inc/movies/edit_movie.php:359
+#: inc/movies/edit_movie.php:375 inc/movies/edit_movie.php:391
+#: inc/tvshows/links.php:90 inc/tvshows/links.php:97 inc/tvshows/links.php:107
+#: inc/tvshows/links.php:117 inc/tvshows/links.php:143
+#: inc/tvshows/links.php:150 inc/tvshows/links.php:160
+#: inc/tvshows/links.php:170 inc/tvshows/episode/add_episode.php:164
+#: inc/tvshows/episode/edit_episode.php:157
+msgid "Select"
+msgstr "Selecionar"
+
+#: tr-movies.php:663 tr-movies.php:736 inc/movies/edit_movie.php:280
+#: inc/movies/edit_movie.php:353 inc/tvshows/links.php:91
+#: inc/tvshows/links.php:144
+msgid "Online"
+msgstr "Online"
+
+#: tr-movies.php:664 tr-movies.php:737 inc/movies/edit_movie.php:281
+#: inc/movies/edit_movie.php:354 inc/tvshows/links.php:92
+#: inc/tvshows/links.php:145
+msgid "Download"
+msgstr "Baixar"
+
+#: tr-movies.php:721 tr-movies.php:794 inc/movies/edit_movie.php:338
+#: inc/movies/edit_movie.php:411 inc/movies/show_movie.php:191
+#: inc/tax/cast/cast.php:57 inc/tax/cast_tv/cast.php:57
+#: inc/tax/countries/countries.php:57 inc/tax/directors/directors.php:57
+#: inc/tax/directors_tv/directors.php:57 inc/tax/languages/languages.php:57
+#: inc/tax/languages_tv/languages.php:57 inc/tax/qualitys/qualitys.php:57
+#: inc/tax/qualitys_tv/qualitys.php:57 inc/tax/servers/servers.php:57
+#: inc/tax/servers_tv/servers.php:57 inc/tvshows/links.php:127
+#: inc/tvshows/links.php:180 inc/tvshows/show_tvshow.php:182
+#: inc/tvshows/episode/show_episode.php:73
+#: inc/tvshows/season/show_season.php:73
+msgid "Delete"
+msgstr "Excluir"
+
+#: tr-movies.php:812 tr-movies.php:814
+#, php-format
+msgid "Image %s"
+msgstr "Imagem %s"
+
+#: tr-movies.php:865
+msgid "Server"
+msgstr "Servidor"
+
+#: tr-movies.php:866 tr-movies.php:891 tr-movies.php:916 tr-movies.php:941
+#: tr-movies.php:963 tr-movies.php:985 tr-movies.php:1010 tr-movies.php:1033
+#: tr-movies.php:1055 tr-movies.php:1077 tr-movies.php:1099
+msgid "Search"
+msgstr "Pesquisar"
+
+#: tr-movies.php:868 tr-movies.php:869 tr-movies.php:893 tr-movies.php:894
+#: tr-movies.php:918 tr-movies.php:919 tr-movies.php:943 tr-movies.php:944
+#: tr-movies.php:965 tr-movies.php:966 tr-movies.php:987 tr-movies.php:988
+#: tr-movies.php:1012 tr-movies.php:1013 tr-movies.php:1035 tr-movies.php:1036
+#: tr-movies.php:1057 tr-movies.php:1058 tr-movies.php:1079 tr-movies.php:1080
+#: tr-movies.php:1101 tr-movies.php:1102
+msgid "Parent"
+msgstr "Parent"
+
+#: tr-movies.php:870 tr-movies.php:895 tr-movies.php:920 tr-movies.php:945
+#: tr-movies.php:967 tr-movies.php:989 tr-movies.php:1014 tr-movies.php:1037
+#: tr-movies.php:1059 tr-movies.php:1081 tr-movies.php:1103
+#: inc/movies/show_movie.php:191 inc/tax/cast/cast.php:57
+#: inc/tax/cast_tv/cast.php:57 inc/tax/countries/countries.php:57
+#: inc/tax/directors/directors.php:57 inc/tax/directors_tv/directors.php:57
+#: inc/tax/languages/languages.php:57 inc/tax/languages_tv/languages.php:57
+#: inc/tax/qualitys/qualitys.php:57 inc/tax/qualitys_tv/qualitys.php:57
+#: inc/tax/servers/servers.php:57 inc/tax/servers_tv/servers.php:57
+#: inc/tvshows/show_tvshow.php:182 inc/tvshows/episode/show_episode.php:73
+#: inc/tvshows/season/show_season.php:73
+msgid "Edit"
+msgstr "Editar"
+
+#: tr-movies.php:871 tr-movies.php:896 tr-movies.php:921 tr-movies.php:946
+#: tr-movies.php:968 tr-movies.php:990 tr-movies.php:1015 tr-movies.php:1038
+#: tr-movies.php:1060 tr-movies.php:1082 tr-movies.php:1104
+msgid "Update"
+msgstr "Atualizar"
+
+#: tr-movies.php:872 tr-movies.php:897 tr-movies.php:922 tr-movies.php:947
+#: tr-movies.php:969 tr-movies.php:991 tr-movies.php:1016 tr-movies.php:1039
+#: tr-movies.php:1061 tr-movies.php:1083 tr-movies.php:1105
+msgid "Add"
+msgstr "Adicionar"
+
+#: tr-movies.php:873 tr-movies.php:898 tr-movies.php:923 tr-movies.php:948
+#: tr-movies.php:970 tr-movies.php:992 tr-movies.php:1017 tr-movies.php:1040
+#: tr-movies.php:1062 tr-movies.php:1084 tr-movies.php:1106
+msgid "New"
+msgstr "Novo"
+
+#: tr-movies.php:877
+msgid "server"
+msgstr "servidor"
+
+#: tr-movies.php:890
+msgid "Language"
+msgstr "Idioma"
+
+#: tr-movies.php:902
+msgid "lang"
+msgstr "lang"
+
+#: tr-movies.php:914 tr-movies.php:915 tr-movies.php:924
+msgid "Quality"
+msgstr "Qualidade"
+
+#: tr-movies.php:927
+msgid "quality"
+msgstr "qualidade"
+
+#: tr-movies.php:940
+msgid "Country"
+msgstr "País"
+
+#: tr-movies.php:952
+msgid "country"
+msgstr "país"
+
+#: tr-movies.php:962
+msgid "Director"
+msgstr "Diretor"
+
+#: tr-movies.php:1008 tr-movies.php:1018
+msgid "Letters"
+msgstr "Letras"
+
+#: tr-movies.php:1009
+msgid "Letter"
+msgstr "Letra"
+
+#: tr-movies.php:1021 tr-movies.php:1149
+msgid "letter"
+msgstr "letra"
+
+#: tr-movies.php:1031 tr-movies.php:1041 inc/tvshows/edit_tvshow.php:187
+#: inc/tvshows/season/show_season.php:51
+msgid "Seasons"
+msgstr "Temporadas"
+
+#: tr-movies.php:1032 inc/tvshows/season/show_season.php:72
+msgid "Season"
+msgstr "Temporada"
+
+#: tr-movies.php:1053 tr-movies.php:1063 inc/tvshows/edit_tvshow.php:191
+msgid "Episodes"
+msgstr "Episódios"
+
+#: tr-movies.php:1054 inc/tvshows/episode/show_episode.php:72
+msgid "Episode"
+msgstr "Episódio"
+
+#: tr-movies.php:1075 tr-movies.php:1085
+msgid "Directors TV"
+msgstr "Diretores Séries"
+
+#: tr-movies.php:1076
+msgid "Director TV"
+msgstr "Diretor Série"
+
+#: tr-movies.php:1097 tr-movies.php:1098 tr-movies.php:1107
+msgid "Cast TV"
+msgstr "Elenco Série"
+
+#: tr-movies.php:1127
+msgid "0-9"
+msgstr "0-9"
+
+#: tr-movies.php:1256 tr-movies.php:1259 tr-movies.php:1261
+msgid "Background"
+msgstr "Fundo"
+
+#: tr-movies.php:1303
+msgid "License"
+msgstr "Licença"
+
+#: tr-movies.php:1310 tr-movies.php:1364
+msgid "Check"
+msgstr "Verificar"
+
+#: tr-movies.php:1310
+msgid "Error, the license is not valid"
+msgstr "Erro, a licença não é válida"
+
+#: tr-movies.php:1357
+msgid "Choose the active function"
+msgstr "Escolha a função ativa"
+
+#: tr-movies.php:1359
+msgid "CURL"
+msgstr "CURL"
+
+#: tr-movies.php:1360
+msgid "File_get_contents"
+msgstr "File_get_contents"
+
+#: tr-movies.php:1362 tr-movies.php:1363
+msgid "Enter your license"
+msgstr "Insira sua licença"
+
+#: tr-movies.php:1441
+#, php-format
+msgid ""
+"Please, %sbefore proceeding%s, set the thumbnail size correctly, %sclick here"
+"%s. (%sx%s)"
+msgstr ""
+"Por favor, %santes de continuar%s, Defina o tamanho da miniatura "
+"corretamente, %sClique aqui %s. (%s x%s)"
+
+#: inc/movies/add_movie.php:11 inc/tvshows/add_tvshow.php:11
+msgid "You must enter ID."
+msgstr "Você deve inserir ID."
+
+#: inc/movies/add_movie.php:17 inc/tvshows/add_tvshow.php:17
+msgid ""
+"You must set up an API Key, <a href=\"admin.php?page=tr-movies\">click here</"
+"a>."
+msgstr ""
+"Você deve configurar uma chave de API, <a href=\"admin.php?page=tr-movies"
+"\">Clique aqui</a>."
+
+#: inc/movies/add_movie.php:35 inc/tvshows/add_tvshow.php:36
+msgid "Go"
+msgstr "Ir"
+
+#: inc/movies/add_movie.php:38 inc/tvshows/add_tvshow.php:39
+msgid "EXAMPLE"
+msgstr "EXEMPLO"
+
+#: inc/movies/add_movie.php:43 inc/movies/edit_movie.php:30
+msgid "Movie's name"
+msgstr "Nome do Filme"
+
+#: inc/movies/add_movie.php:46 inc/movies/edit_movie.php:34
+#: inc/tvshows/add_tvshow.php:47 inc/tvshows/edit_tvshow.php:225
+msgid "Categories"
+msgstr "Categorias"
+
+#: inc/movies/add_movie.php:69 inc/movies/edit_movie.php:53
+#: inc/tvshows/add_tvshow.php:67 inc/tvshows/edit_tvshow.php:263
+#: inc/tvshows/episode/add_episode.php:183
+#: inc/tvshows/episode/edit_episode.php:176
+#: inc/tvshows/season/add_season.php:29 inc/tvshows/season/edit_season.php:156
+msgid "Synopsis"
+msgstr "Sinopse"
+
+#: inc/movies/add_movie.php:83 inc/movies/edit_movie.php:66
+#: inc/tvshows/add_tvshow.php:81 inc/tvshows/edit_tvshow.php:289
+msgid "Trailer"
+msgstr "Trailer"
+
+#: inc/movies/add_movie.php:84 inc/movies/edit_movie.php:67
+#: inc/tvshows/add_tvshow.php:82 inc/tvshows/edit_tvshow.php:291
+msgid "Insert code iframe here"
+msgstr "Insira código iframe aqui"
+
+#: inc/movies/add_movie.php:93 inc/movies/add_movie.php:94
+#: inc/movies/edit_movie.php:80 inc/movies/edit_movie.php:81
+#: inc/tvshows/add_tvshow.php:98 inc/tvshows/add_tvshow.php:99
+#: inc/tvshows/edit_tvshow.php:335 inc/tvshows/edit_tvshow.php:337
+msgid "Original name"
+msgstr "Nome original"
+
+#: inc/movies/add_movie.php:150 inc/movies/edit_movie.php:139
+#: inc/tvshows/add_tvshow.php:155 inc/tvshows/edit_tvshow.php:459
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/movies/add_movie.php:202 inc/movies/edit_movie.php:193
+#: inc/tvshows/edit_tvshow.php:517 inc/tvshows/episode/add_episode.php:156
+#: inc/tvshows/episode/edit_episode.php:149 inc/tvshows/season/add_season.php:9
+#: inc/tvshows/season/edit_season.php:136
+msgid "Info"
+msgstr "Informação"
+
+#: inc/movies/add_movie.php:204 inc/movies/add_movie.php:205
+#: inc/movies/edit_movie.php:195 inc/movies/edit_movie.php:196
+#: inc/movies/show_movie.php:162 inc/tvshows/add_tvshow.php:183
+#: inc/tvshows/add_tvshow.php:184 inc/tvshows/edit_tvshow.php:521
+#: inc/tvshows/edit_tvshow.php:523 inc/tvshows/show_tvshow.php:153
+msgid "Duration"
+msgstr "Duração"
+
+#: inc/movies/add_movie.php:208 inc/movies/add_movie.php:209
+#: inc/movies/edit_movie.php:199 inc/movies/edit_movie.php:200
+msgid "Release data"
+msgstr "Data de lançamento"
+
+#: inc/movies/add_movie.php:213 inc/movies/edit_movie.php:204
+#: inc/tvshows/add_tvshow.php:209 inc/tvshows/edit_tvshow.php:563
+#: inc/tvshows/episode/add_episode.php:196
+#: inc/tvshows/episode/edit_episode.php:189
+#: inc/tvshows/season/add_season.php:42 inc/tvshows/season/edit_season.php:169
+msgid "Poster"
+msgstr "Cartaz"
+
+#: inc/movies/add_movie.php:217 inc/movies/add_movie.php:225
+#: inc/movies/edit_movie.php:214 inc/movies/edit_movie.php:233
+#: inc/tax/cast/edit_cast.php:94 inc/tax/cast_tv/edit_cast.php:94
+#: inc/tax/languages/edit_language.php:88
+#: inc/tax/languages_tv/edit_language.php:88 inc/tax/servers/edit_server.php:88
+#: inc/tax/servers_tv/edit_server.php:88 inc/tvshows/add_tvshow.php:213
+#: inc/tvshows/add_tvshow.php:222 inc/tvshows/edit_tvshow.php:573
+#: inc/tvshows/edit_tvshow.php:592 inc/tvshows/episode/add_episode.php:200
+#: inc/tvshows/episode/edit_episode.php:197
+#: inc/tvshows/season/add_season.php:46 inc/tvshows/season/edit_season.php:177
+msgid "Click here for upload image"
+msgstr "Clique aqui para carregar a imagem"
+
+#: inc/movies/add_movie.php:221 inc/movies/edit_movie.php:218
+#: inc/tvshows/add_tvshow.php:218 inc/tvshows/edit_tvshow.php:577
+msgid "Backdrop"
+msgstr "Plano de fundo"
+
+#: inc/movies/edit_movie.php:10 inc/movies/edit_movie.php:18
+msgid "Edit Movie"
+msgstr "Editar Filme"
+
+#: inc/movies/edit_movie.php:15 inc/tvshows/edit_tvshow.php:185
+msgid "Edit Details"
+msgstr "Editar Detalhes"
+
+#: inc/movies/edit_movie.php:16
+msgid "Edit Links"
+msgstr "Editar Links"
+
+#: inc/movies/edit_movie.php:74 inc/tvshows/edit_tvshow.php:323
+msgid "Published"
+msgstr "Publicados"
+
+#: inc/movies/edit_movie.php:75 inc/tvshows/edit_tvshow.php:325
+msgid "Pending"
+msgstr "Pendente"
+
+#: inc/movies/edit_movie.php:76 inc/tvshows/edit_tvshow.php:327
+msgid "Draft"
+msgstr "Rascunho"
+
+#: inc/movies/edit_movie.php:236 inc/movies/edit_movie.php:419
+#: inc/tax/cast/edit_cast.php:99 inc/tax/cast_tv/edit_cast.php:99
+#: inc/tax/countries/edit_country.php:52 inc/tax/directors/edit_director.php:52
+#: inc/tax/directors_tv/edit_director.php:52
+#: inc/tax/languages/edit_language.php:93
+#: inc/tax/languages_tv/edit_language.php:93
+#: inc/tax/qualitys/edit_quality.php:52 inc/tax/qualitys_tv/edit_quality.php:52
+#: inc/tax/servers/edit_server.php:93 inc/tax/servers_tv/edit_server.php:93
+#: inc/tvshows/edit_tvshow.php:596 inc/tvshows/episode/edit_episode.php:201
+#: inc/tvshows/season/edit_season.php:182
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: inc/movies/edit_movie.php:247 inc/tvshows/links.php:63
+msgid "Add link"
+msgstr "Adicionar link"
+
+#: inc/movies/edit_movie.php:251
+msgid "Enter url of Yaske.org"
+msgstr "Insira url de Yaske.org"
+
+#: inc/movies/edit_movie.php:251
+msgid "Generate"
+msgstr "Gerar"
+
+#: inc/movies/edit_movie.php:253
+msgid "URL INVALID, SUPPORT YASKE.ORG"
+msgstr "URL INVÁLIDA, SUPORTE YASKE.ORG"
+
+#: inc/movies/edit_movie.php:261 inc/tvshows/links.php:68
+msgid "TYPE"
+msgstr "TIPO"
+
+#: inc/movies/edit_movie.php:262 inc/tvshows/links.php:69
+msgid "SERVER"
+msgstr "SERVIDOR"
+
+#: inc/movies/edit_movie.php:263 inc/tvshows/links.php:70
+msgid "LANGUAGE"
+msgstr "IDIOMA"
+
+#: inc/movies/edit_movie.php:264 inc/tvshows/links.php:71
+msgid "QUALITY"
+msgstr "QUALIDADE"
+
+#: inc/movies/edit_movie.php:265 inc/tvshows/links.php:72
+msgid "LINK"
+msgstr "LINK"
+
+#: inc/movies/edit_movie.php:266 inc/tvshows/links.php:73
+msgid "DATE"
+msgstr "DATA"
+
+#: inc/movies/edit_movie.php:340 inc/tvshows/links.php:129
+#: inc/tvshows/links.php:182
+msgid "Up"
+msgstr "Acima"
+
+#: inc/movies/edit_movie.php:341 inc/tvshows/links.php:130
+#: inc/tvshows/links.php:183
+msgid "Down"
+msgstr "Abaixo"
+
+#: inc/movies/show_movie.php:20
+msgid "The movie was successfully deleted."
+msgstr "O filme foi excluído com sucesso."
+
+#: inc/movies/show_movie.php:89
+msgid "Movies List"
+msgstr "Lista de Filmes"
+
+#: inc/movies/show_movie.php:118 inc/tvshows/show_tvshow.php:110
+msgid "Search by letter"
+msgstr "Pesquisar por letra"
+
+#: inc/movies/show_movie.php:149 inc/tvshows/show_tvshow.php:140
+msgid "Search..."
+msgstr "Pesquisar…"
+
+#: inc/movies/show_movie.php:160 inc/tax/cast/cast.php:46
+#: inc/tax/cast_tv/cast.php:46 inc/tax/countries/countries.php:46
+#: inc/tax/directors/directors.php:46 inc/tax/directors_tv/directors.php:46
+#: inc/tax/languages/languages.php:46 inc/tax/languages_tv/languages.php:46
+#: inc/tax/qualitys/qualitys.php:46 inc/tax/qualitys_tv/qualitys.php:46
+#: inc/tax/servers/servers.php:46 inc/tax/servers_tv/servers.php:46
+#: inc/tvshows/show_tvshow.php:151
+msgid "Results"
+msgstr "Resultados"
+
+#: inc/movies/show_movie.php:161 inc/tvshows/show_tvshow.php:152
+msgid "YEAR"
+msgstr "ANO"
+
+#: inc/movies/show_movie.php:163 inc/tax/cast/cast.php:47
+#: inc/tax/cast_tv/cast.php:47 inc/tax/countries/countries.php:47
+#: inc/tax/directors/directors.php:47 inc/tax/directors_tv/directors.php:47
+#: inc/tax/languages/languages.php:47 inc/tax/languages_tv/languages.php:47
+#: inc/tax/qualitys/qualitys.php:47 inc/tax/qualitys_tv/qualitys.php:47
+#: inc/tax/servers/servers.php:47 inc/tax/servers_tv/servers.php:47
+#: inc/tvshows/show_tvshow.php:154
+msgid "Options"
+msgstr "Opções"
+
+#: inc/movies/show_movie.php:186 inc/movies/show_movie.php:190
+#: inc/tvshows/show_tvshow.php:177 inc/tvshows/show_tvshow.php:181
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: inc/movies/show_movie.php:191 inc/tax/cast/cast.php:57
+#: inc/tax/cast/cast.php:81 inc/tax/cast_tv/cast.php:57
+#: inc/tax/cast_tv/cast.php:81 inc/tax/countries/countries.php:57
+#: inc/tax/countries/countries.php:81 inc/tax/directors/directors.php:57
+#: inc/tax/directors/directors.php:81 inc/tax/directors_tv/directors.php:57
+#: inc/tax/directors_tv/directors.php:81 inc/tax/languages/languages.php:57
+#: inc/tax/languages/languages.php:81 inc/tax/languages_tv/languages.php:57
+#: inc/tax/languages_tv/languages.php:81 inc/tax/qualitys/qualitys.php:57
+#: inc/tax/qualitys/qualitys.php:81 inc/tax/qualitys_tv/qualitys.php:57
+#: inc/tax/qualitys_tv/qualitys.php:81 inc/tax/servers/servers.php:57
+#: inc/tax/servers/servers.php:81 inc/tax/servers_tv/servers.php:57
+#: inc/tax/servers_tv/servers.php:81 inc/tvshows/show_tvshow.php:182
+#: inc/tvshows/episode/show_episode.php:73
+#: inc/tvshows/episode/show_episode.php:85
+#: inc/tvshows/season/show_season.php:73 inc/tvshows/season/show_season.php:80
+msgid "Are you sure?"
+msgstr "Você tem certeza?"
+
+#: inc/movies/show_movie.php:207
+msgid "No movie has been published, click here to start publishing."
+msgstr "Nenhum filme foi publicado, clique aqui para começar a publicar."
+
+#: inc/movies/submit/movie_edit_submit.php:10
+#: inc/movies/submit/movie_submit.php:10
+msgid "The movie name field is empty."
+msgstr "O campo do nome do filme está vazio."
+
+#: inc/movies/submit/movie_edit_submit.php:16
+#: inc/movies/submit/movie_submit.php:16
+#: inc/tvshows/submit/tvshow_submit.php:16
+#: inc/tvshows/submit/tvshow_submit_edit.php:18
+msgid "You must select at least one category."
+msgstr "Você deve selecionar pelo menos uma categoria."
+
+#: inc/movies/submit/movie_edit_submit.php:22
+#: inc/movies/submit/movie_submit.php:22
+#: inc/tvshows/submit/tvshow_submit.php:22
+#: inc/tvshows/submit/tvshow_submit_edit.php:24
+msgid "You must complete the synopsis."
+msgstr "Você deve completar a sinopse."
+
+#: inc/movies/submit/movie_edit_submit.php:30
+#: inc/movies/submit/movie_submit.php:30
+#: inc/tvshows/submit/tvshow_submit.php:30
+#: inc/tvshows/submit/tvshow_submit_edit.php:32
+msgid "The poster is not a valid image."
+msgstr "O cartaz não é uma imagem válida."
+
+#: inc/movies/submit/movie_edit_submit.php:40
+#: inc/movies/submit/movie_submit.php:40
+#: inc/tvshows/submit/tvshow_submit.php:40
+#: inc/tvshows/submit/tvshow_submit_edit.php:42
+msgid "The backdrop is not a valid image."
+msgstr "A imagem de fundo não é valida."
+
+#: inc/movies/submit/movie_edit_submit.php:274
+msgid "The movie was added."
+msgstr "O filme foi adicionado."
+
+#: inc/movies/submit/movie_edit_submit.php:278
+msgid "The movie was updated."
+msgstr "O filme foi atualizado."
+
+#: inc/tax/cast/add_cast.php:10 inc/tax/cast/edit_cast.php:14
+#: inc/tax/cast_tv/add_cast.php:10 inc/tax/cast_tv/edit_cast.php:14
+#: inc/tax/countries/add_country.php:10 inc/tax/countries/edit_country.php:14
+#: inc/tax/directors/add_director.php:10 inc/tax/directors/edit_director.php:14
+#: inc/tax/directors_tv/add_director.php:10
+#: inc/tax/directors_tv/edit_director.php:14
+#: inc/tax/languages/add_language.php:10 inc/tax/languages/edit_language.php:14
+#: inc/tax/languages_tv/add_language.php:10
+#: inc/tax/languages_tv/edit_language.php:14
+#: inc/tax/qualitys/add_quality.php:10 inc/tax/qualitys/edit_quality.php:14
+#: inc/tax/qualitys_tv/add_quality.php:10
+#: inc/tax/qualitys_tv/edit_quality.php:14 inc/tax/servers/add_server.php:10
+#: inc/tax/servers/edit_server.php:14 inc/tax/servers_tv/add_server.php:10
+#: inc/tax/servers_tv/edit_server.php:14
+msgid "The name field is empty."
+msgstr "O campo de nome está vazio."
+
+#: inc/tax/cast/add_cast.php:18 inc/tax/cast_tv/add_cast.php:18
+#: inc/tax/directors/add_director.php:18 inc/tax/directors/edit_director.php:22
+#: inc/tax/directors_tv/add_director.php:18
+#: inc/tax/directors_tv/edit_director.php:22
+msgid "The director you introduced already exists."
+msgstr "O diretor que você introduziu já existe."
+
+#: inc/tax/cast/add_cast.php:29 inc/tax/cast_tv/add_cast.php:29
+msgid "The actor was added successfully."
+msgstr "O ator foi adicionado com sucesso."
+
+#: inc/tax/cast/add_cast.php:37 inc/tax/cast_tv/add_cast.php:37
+msgid "Add Actor"
+msgstr "Adicionar Ator"
+
+#: inc/tax/cast/add_cast.php:40 inc/tax/cast/edit_cast.php:77
+#: inc/tax/cast_tv/add_cast.php:40 inc/tax/cast_tv/edit_cast.php:77
+#: inc/tax/countries/add_country.php:40 inc/tax/countries/edit_country.php:46
+#: inc/tax/directors/add_director.php:40 inc/tax/directors/edit_director.php:46
+#: inc/tax/directors_tv/add_director.php:40
+#: inc/tax/directors_tv/edit_director.php:46
+#: inc/tax/languages/add_language.php:40 inc/tax/languages/edit_language.php:74
+#: inc/tax/languages_tv/add_language.php:40
+#: inc/tax/languages_tv/edit_language.php:74
+#: inc/tax/qualitys/add_quality.php:40 inc/tax/qualitys/edit_quality.php:46
+#: inc/tax/qualitys_tv/add_quality.php:40
+#: inc/tax/qualitys_tv/edit_quality.php:46 inc/tax/servers/add_server.php:40
+#: inc/tax/servers/edit_server.php:74 inc/tax/servers_tv/add_server.php:40
+#: inc/tax/servers_tv/edit_server.php:74
+#: inc/tvshows/episode/add_episode.php:158
+#: inc/tvshows/episode/add_episode.php:159
+#: inc/tvshows/episode/edit_episode.php:151
+#: inc/tvshows/episode/edit_episode.php:152
+#: inc/tvshows/season/add_season.php:11 inc/tvshows/season/add_season.php:12
+#: inc/tvshows/season/edit_season.php:138
+#: inc/tvshows/season/edit_season.php:139
+msgid "Name"
+msgstr "Nome"
+
+#: inc/tax/cast/add_cast.php:41 inc/tax/cast/edit_cast.php:78
+#: inc/tax/cast_tv/add_cast.php:41 inc/tax/cast_tv/edit_cast.php:78
+msgid "Name of actor"
+msgstr "Nome do ator"
+
+#: inc/tax/cast/add_cast.php:44 inc/tax/cast_tv/add_cast.php:44
+msgid "Add actor"
+msgstr "Adicionar ator"
+
+#: inc/tax/cast/cast.php:66 inc/tax/cast_tv/cast.php:66
+msgid "Add your first actor :)"
+msgstr "Adicione seu primeiro ator :)"
+
+#: inc/tax/cast/cast.php:81 inc/tax/cast_tv/cast.php:81
+#: inc/tax/countries/countries.php:81 inc/tax/directors/directors.php:81
+#: inc/tax/directors_tv/directors.php:81 inc/tax/languages/languages.php:81
+#: inc/tax/languages_tv/languages.php:81 inc/tax/qualitys/qualitys.php:81
+#: inc/tax/qualitys_tv/qualitys.php:81 inc/tax/servers/servers.php:81
+#: inc/tax/servers_tv/servers.php:81 inc/tvshows/episode/show_episode.php:85
+#: inc/tvshows/season/show_season.php:80
+msgid "Clear Selected"
+msgstr "Limpar selecionado"
+
+#: inc/tax/cast/del_cast.php:20 inc/tax/cast_tv/del_cast.php:20
+#: inc/tax/countries/del_country.php:20 inc/tax/directors/del_director.php:20
+#: inc/tax/directors_tv/del_director.php:20
+#: inc/tax/languages/del_language.php:20
+#: inc/tax/languages_tv/del_language.php:20 inc/tax/qualitys/del_quality.php:20
+#: inc/tax/qualitys_tv/del_quality.php:20 inc/tax/servers/del_server.php:20
+#: inc/tax/servers_tv/del_server.php:20 inc/tvshows/edit_tvshow.php:74
+#: inc/tvshows/edit_tvshow.php:102
+msgid "You have not selected any items."
+msgstr "Você não selecionou nenhum item."
+
+#: inc/tax/cast/del_cast.php:42 inc/tax/cast_tv/del_cast.php:42
+#: inc/tax/countries/del_country.php:42 inc/tax/directors/del_director.php:42
+#: inc/tax/directors_tv/del_director.php:42
+#: inc/tax/languages/del_language.php:42
+#: inc/tax/languages_tv/del_language.php:42 inc/tax/qualitys/del_quality.php:42
+#: inc/tax/qualitys_tv/del_quality.php:42 inc/tax/servers/del_server.php:42
+#: inc/tax/servers_tv/del_server.php:42 inc/tvshows/edit_tvshow.php:128
+msgid "It was successfully deleted."
+msgstr "Foi excluído com sucesso."
+
+#: inc/tax/cast/edit_cast.php:22 inc/tax/cast_tv/edit_cast.php:22
+msgid "The actor you introduced already exists."
+msgstr "O ator que você adicionou já existe."
+
+#: inc/tax/cast/edit_cast.php:66 inc/tax/cast_tv/edit_cast.php:66
+msgid "The actor was updated successfully."
+msgstr "O ator foi atualizado com sucesso."
+
+#: inc/tax/cast/edit_cast.php:74 inc/tax/cast_tv/edit_cast.php:74
+msgid "Edit Actor"
+msgstr "Editar Ator"
+
+#: inc/tax/cast/edit_cast.php:74 inc/tax/cast_tv/edit_cast.php:74
+#: inc/tax/countries/edit_country.php:43 inc/tax/directors/edit_director.php:43
+#: inc/tax/directors_tv/edit_director.php:43
+#: inc/tax/languages/edit_language.php:71
+#: inc/tax/languages_tv/edit_language.php:71
+#: inc/tax/qualitys/edit_quality.php:43 inc/tax/qualitys_tv/edit_quality.php:43
+#: inc/tax/servers/edit_server.php:71 inc/tax/servers_tv/edit_server.php:71
+msgid "Edit term"
+msgstr "Editar termo"
+
+#: inc/tax/countries/add_country.php:18 inc/tax/countries/edit_country.php:22
+msgid "The country you introduced already exists."
+msgstr "O país que você adicionou já existe."
+
+#: inc/tax/countries/add_country.php:29
+msgid "The country was added successfully."
+msgstr "O país foi adicionado com sucesso."
+
+#: inc/tax/countries/add_country.php:37 inc/tax/languages/add_language.php:37
+#: inc/tax/languages_tv/add_language.php:37
+msgid "Add Language"
+msgstr "Adicionar Idioma"
+
+#: inc/tax/countries/add_country.php:41 inc/tax/countries/edit_country.php:47
+msgid "Name of country"
+msgstr "Nome do país"
+
+#: inc/tax/countries/add_country.php:44
+msgid "Add country"
+msgstr "Adicionar país"
+
+#: inc/tax/countries/countries.php:66
+msgid "Add your first country :)"
+msgstr "Adicione seu primeiro país :)"
+
+#: inc/tax/countries/edit_country.php:35
+msgid "The country was updated successfully."
+msgstr "O país foi atualizado com sucesso."
+
+#: inc/tax/countries/edit_country.php:43
+msgid "Edit Country"
+msgstr "Editar País"
+
+#: inc/tax/directors/add_director.php:29
+#: inc/tax/directors_tv/add_director.php:29
+msgid "The director was added successfully."
+msgstr "O diretor foi adicionado com sucesso."
+
+#: inc/tax/directors/add_director.php:37
+#: inc/tax/directors_tv/add_director.php:37
+msgid "Add Director"
+msgstr "Adicionar Diretor"
+
+#: inc/tax/directors/add_director.php:41 inc/tax/directors/edit_director.php:47
+#: inc/tax/directors_tv/add_director.php:41
+#: inc/tax/directors_tv/edit_director.php:47
+msgid "Name of director"
+msgstr "Nome do diretor"
+
+#: inc/tax/directors/add_director.php:44
+#: inc/tax/directors_tv/add_director.php:44
+msgid "Add director"
+msgstr "Adicionar diretor"
+
+#: inc/tax/directors/directors.php:66 inc/tax/directors_tv/directors.php:66
+msgid "Add your first director :)"
+msgstr "Adicione seu primeiro diretor :)"
+
+#: inc/tax/directors/edit_director.php:35
+#: inc/tax/directors_tv/edit_director.php:35
+msgid "The director was updated successfully."
+msgstr "O diretor foi atualizado com sucesso."
+
+#: inc/tax/directors/edit_director.php:43
+#: inc/tax/directors_tv/edit_director.php:43
+msgid "Edit Director"
+msgstr "Editar Diretor"
+
+#: inc/tax/languages/add_language.php:18
+#: inc/tax/languages_tv/add_language.php:18 inc/tax/servers/add_server.php:18
+#: inc/tax/servers/edit_server.php:22 inc/tax/servers_tv/add_server.php:18
+#: inc/tax/servers_tv/edit_server.php:22
+msgid "The server you introduced already exists."
+msgstr "O servidor que você adicionou já existe."
+
+#: inc/tax/languages/add_language.php:29
+#: inc/tax/languages_tv/add_language.php:29 inc/tax/servers/add_server.php:29
+#: inc/tax/servers_tv/add_server.php:29
+msgid "The server was added successfully."
+msgstr "O servidor foi adicionado com sucesso."
+
+#: inc/tax/languages/add_language.php:41
+#: inc/tax/languages_tv/add_language.php:41
+msgid "Name of language"
+msgstr "Nome do idioma"
+
+#: inc/tax/languages/add_language.php:44
+#: inc/tax/languages_tv/add_language.php:44
+msgid "Add language"
+msgstr "Adicionar idioma"
+
+#: inc/tax/languages/edit_language.php:22
+#: inc/tax/languages_tv/edit_language.php:22
+msgid "The language you introduced already exists."
+msgstr "O idioma que você adicionou já existe."
+
+#: inc/tax/languages/edit_language.php:63
+#: inc/tax/languages_tv/edit_language.php:63
+msgid "The language was updated successfully."
+msgstr "O idioma foi atualizado com sucesso."
+
+#: inc/tax/languages/edit_language.php:71
+#: inc/tax/languages_tv/edit_language.php:71
+msgid "Edit Language"
+msgstr "Editar Idioma"
+
+#: inc/tax/languages/edit_language.php:75
+#: inc/tax/languages_tv/edit_language.php:75 inc/tax/servers/add_server.php:41
+#: inc/tax/servers/edit_server.php:75 inc/tax/servers_tv/add_server.php:41
+#: inc/tax/servers_tv/edit_server.php:75
+msgid "Name of server"
+msgstr "Nome do servidor"
+
+#: inc/tax/languages/languages.php:66 inc/tax/languages_tv/languages.php:66
+msgid "Add your first language :)"
+msgstr "Adicione seu primeiro idioma :)"
+
+#: inc/tax/qualitys/add_quality.php:18 inc/tax/qualitys/edit_quality.php:22
+#: inc/tax/qualitys_tv/add_quality.php:18
+#: inc/tax/qualitys_tv/edit_quality.php:22
+msgid "The quality you introduced already exists."
+msgstr "A qualidade que você adicionou já existe."
+
+#: inc/tax/qualitys/add_quality.php:29 inc/tax/qualitys_tv/add_quality.php:29
+msgid "The quality was added successfully."
+msgstr "A qualidade foi adicionada com sucesso."
+
+#: inc/tax/qualitys/add_quality.php:37 inc/tax/qualitys_tv/add_quality.php:37
+msgid "Add Quality"
+msgstr "Adicionar Qualidade"
+
+#: inc/tax/qualitys/add_quality.php:41 inc/tax/qualitys/edit_quality.php:47
+#: inc/tax/qualitys_tv/add_quality.php:41
+#: inc/tax/qualitys_tv/edit_quality.php:47
+msgid "Name of quality"
+msgstr "Nome da qualidade"
+
+#: inc/tax/qualitys/add_quality.php:44 inc/tax/qualitys_tv/add_quality.php:44
+msgid "Add quality"
+msgstr "Adicionar qualidade"
+
+#: inc/tax/qualitys/edit_quality.php:35 inc/tax/qualitys_tv/edit_quality.php:35
+msgid "The quality was updated successfully."
+msgstr "A qualidade foi atualizada com sucesso."
+
+#: inc/tax/qualitys/edit_quality.php:43 inc/tax/qualitys_tv/edit_quality.php:43
+msgid "Edit Quality"
+msgstr "Editar Qualidade"
+
+#: inc/tax/qualitys/qualitys.php:66 inc/tax/qualitys_tv/qualitys.php:66
+msgid "Add your first quality :)"
+msgstr "Adicione sua primeira qualidade :)"
+
+#: inc/tax/servers/add_server.php:37 inc/tax/servers_tv/add_server.php:37
+msgid "Add Server"
+msgstr "Adicionar Servidor"
+
+#: inc/tax/servers/add_server.php:44 inc/tax/servers_tv/add_server.php:44
+msgid "Add server"
+msgstr "Adicionar servidor"
+
+#: inc/tax/servers/edit_server.php:63 inc/tax/servers_tv/edit_server.php:63
+msgid "The server was updated successfully."
+msgstr "O servidor foi atualizado com sucesso."
+
+#: inc/tax/servers/edit_server.php:71 inc/tax/servers_tv/edit_server.php:71
+msgid "Edit Server"
+msgstr "Editar Servidor"
+
+#: inc/tax/servers/servers.php:66 inc/tax/servers_tv/servers.php:66
+msgid "Add your first server :)"
+msgstr "Adicione seu primeiro servidor :)"
+
+#: inc/tvshows/add_tvshow.php:44 inc/tvshows/edit_tvshow.php:219
+msgid "Tv show name"
+msgstr "Nome da série"
+
+#: inc/tvshows/add_tvshow.php:90 inc/tvshows/edit_tvshow.php:305
+msgid "In production"
+msgstr "Em produção"
+
+#: inc/tvshows/add_tvshow.php:92 inc/tvshows/edit_tvshow.php:309
+msgid "Yes"
+msgstr "Sim"
+
+#: inc/tvshows/add_tvshow.php:93 inc/tvshows/edit_tvshow.php:311
+msgid "No"
+msgstr "Não"
+
+#: inc/tvshows/add_tvshow.php:188 inc/tvshows/add_tvshow.php:189
+#: inc/tvshows/edit_tvshow.php:529 inc/tvshows/edit_tvshow.php:531
+msgid "First air date"
+msgstr "Primeira data de lançamento"
+
+#: inc/tvshows/add_tvshow.php:193 inc/tvshows/add_tvshow.php:194
+#: inc/tvshows/edit_tvshow.php:537 inc/tvshows/edit_tvshow.php:539
+msgid "Last air date"
+msgstr "Última data de lançamento"
+
+#: inc/tvshows/add_tvshow.php:203 inc/tvshows/add_tvshow.php:204
+#: inc/tvshows/edit_tvshow.php:554 inc/tvshows/edit_tvshow.php:556
+msgid "Status"
+msgstr "Status"
+
+#: inc/tvshows/edit_tvshow.php:20
+msgid "The tv show was added."
+msgstr "A série foi adicionada."
+
+#: inc/tvshows/edit_tvshow.php:28
+msgid "The tv show was updated."
+msgstr "A série foi atualizada."
+
+#: inc/tvshows/edit_tvshow.php:34
+msgid "The season was added."
+msgstr "A temporada foi adicionada."
+
+#: inc/tvshows/edit_tvshow.php:40
+msgid "The season was updated."
+msgstr "A temporada foi atualizada."
+
+#: inc/tvshows/edit_tvshow.php:46
+msgid "The season was deleted."
+msgstr "A temporada foi excluída."
+
+#: inc/tvshows/edit_tvshow.php:52
+msgid "The episode was added."
+msgstr "O episódio foi adicionado."
+
+#: inc/tvshows/edit_tvshow.php:58
+msgid "The episode was updated."
+msgstr "O episódio foi atualizado."
+
+#: inc/tvshows/edit_tvshow.php:64
+msgid "The episode was deleted."
+msgstr "O episódio foi excluído."
+
+#: inc/tvshows/edit_tvshow.php:179
+msgid "Edit Tv show"
+msgstr "Editar série"
+
+#: inc/tvshows/edit_tvshow.php:202
+msgid "Edit Tv Show"
+msgstr "Editar Série"
+
+#: inc/tvshows/links.php:6
+msgid "SEASONS"
+msgstr "TEMPORADAS"
+
+#: inc/tvshows/links.php:50
+msgid "You must add the episodes of this season before."
+msgstr "Você deve adicionar os episódios desta temporada antes."
+
+#: inc/tvshows/show_tvshow.php:20
+msgid "The tvshow was successfully deleted."
+msgstr "A série foi excluída com sucesso."
+
+#: inc/tvshows/show_tvshow.php:28
+msgid "TV Shows List"
+msgstr "Lista de Séries"
+
+#: inc/tvshows/show_tvshow.php:197
+msgid "No series has been published, click here to start publishing."
+msgstr "Nenhuma série foi publicada, clique aqui para começar a publicar."
+
+#: inc/tvshows/episode/add_episode.php:14
+#: inc/tvshows/episode/edit_episode.php:34
+msgid "You must enter episode's name."
+msgstr "Você deve inserir o nome do episódio."
+
+#: inc/tvshows/episode/add_episode.php:20
+#: inc/tvshows/episode/edit_episode.php:40
+#: inc/tvshows/season/edit_season.php:30
+#: inc/tvshows/submit/tvshow_submit_season.php:28
+msgid "You must enter episodes's number."
+msgstr "Você deve inserir o número do episódio."
+
+#: inc/tvshows/episode/add_episode.php:26
+#: inc/tvshows/episode/edit_episode.php:46
+#: inc/tvshows/season/edit_season.php:24
+#: inc/tvshows/submit/tvshow_submit_season.php:22
+msgid "You must enter season's number."
+msgstr "Você deve inserir o número da temporada."
+
+#: inc/tvshows/episode/add_episode.php:35
+msgid "This episode was already added before."
+msgstr "Este episódio já foi adicionado antes."
+
+#: inc/tvshows/episode/add_episode.php:152
+#: inc/tvshows/episode/add_episode.php:203
+msgid "Add episode"
+msgstr "Adicionar episódio"
+
+#: inc/tvshows/episode/add_episode.php:162
+#: inc/tvshows/episode/edit_episode.php:155
+#: inc/tvshows/season/add_season.php:15 inc/tvshows/season/add_season.php:16
+#: inc/tvshows/season/edit_season.php:142
+#: inc/tvshows/season/edit_season.php:143
+msgid "Season number"
+msgstr "Número de temporada"
+
+#: inc/tvshows/episode/add_episode.php:169
+#: inc/tvshows/episode/add_episode.php:170
+#: inc/tvshows/episode/edit_episode.php:162
+#: inc/tvshows/episode/edit_episode.php:163
+msgid "Episode number"
+msgstr "Número de episódio"
+
+#: inc/tvshows/episode/add_episode.php:173
+#: inc/tvshows/episode/add_episode.php:174
+#: inc/tvshows/episode/edit_episode.php:166
+#: inc/tvshows/episode/edit_episode.php:167
+#: inc/tvshows/season/add_season.php:23 inc/tvshows/season/add_season.php:24
+#: inc/tvshows/season/edit_season.php:150
+#: inc/tvshows/season/edit_season.php:151
+msgid "Air date"
+msgstr "Data de lançamento"
+
+#: inc/tvshows/episode/add_episode.php:177
+#: inc/tvshows/episode/add_episode.php:178
+#: inc/tvshows/episode/edit_episode.php:170
+#: inc/tvshows/episode/edit_episode.php:171
+msgid "Guest stars"
+msgstr "Estrelas convidadas"
+
+#: inc/tvshows/episode/edit_episode.php:145
+msgid "Edit episode"
+msgstr "Editar episódio"
+
+#: inc/tvshows/episode/show_episode.php:48
+msgid "You must add episodes this season."
+msgstr "Você deve adicionar episódios nesta temporada."
+
+#: inc/tvshows/episode/show_episode.php:61
+#: inc/tvshows/season/show_season.php:59
+msgid "NAME"
+msgstr "NOME"
+
+#: inc/tvshows/episode/show_episode.php:62
+#: inc/tvshows/season/show_season.php:60
+msgid "OPTIONS"
+msgstr "OPÇÕES"
+
+#: inc/tvshows/season/add_season.php:5 inc/tvshows/season/add_season.php:49
+msgid "Add season"
+msgstr "Adicionar temporada"
+
+#: inc/tvshows/season/add_season.php:19 inc/tvshows/season/add_season.php:20
+#: inc/tvshows/season/edit_season.php:146
+#: inc/tvshows/season/edit_season.php:147
+msgid "Number of episodes"
+msgstr "Número de episódios"
+
+#: inc/tvshows/season/edit_season.php:18
+#: inc/tvshows/submit/tvshow_submit_season.php:16
+msgid "You must enter season's name."
+msgstr "Você deve inserir o nome da temporada."
+
+#: inc/tvshows/season/edit_season.php:132
+msgid "Edit season"
+msgstr "Editar temporada"
+
+#: inc/tvshows/season/edit_season.php:132
+msgid "Edit Term"
+msgstr "Editar Termo"
+
+#: inc/tvshows/season/show_season.php:30
+msgid "Add season's (API)"
+msgstr "Adicionar temporadas (API)"
+
+#: inc/tvshows/season/show_season.php:30
+msgid "Update season's (API)"
+msgstr "Atualizar temporadas (API)"
+
+#: inc/tvshows/season/show_season.php:73
+msgid "Update episode's (API)"
+msgstr "Atualizar episódios (API)"
+
+#: inc/tvshows/season/show_season.php:73
+msgid "Add episode's (API)"
+msgstr "Adicionar episódios (API)"
+
+#: inc/tvshows/submit/tvshow_submit.php:10
+#: inc/tvshows/submit/tvshow_submit_edit.php:12
+msgid "The tv show name field is empty."
+msgstr "O campo do nome da série está vazio."
+
+#: inc/tvshows/submit/tvshow_submit_season.php:42
+msgid "This season was already added."
+msgstr "Esta temporada já foi adicionada."
+
+msgid "Slug Letters"
+msgstr "Slug Letras"
+
+msgid "letters"
+msgstr "letras"
+
+msgid "Save Links"
+msgstr "Salvar Links"
+
+msgid "Slug Movies"
+msgstr "Slug Filmes"
+
+msgid "Slug Series"
+msgstr "Slug Séries"
+
+msgid "Add Category"
+msgstr "Adicionar Categoria"
+
+msgid "Name of category"
+msgstr "Nome da categoria"
+
+msgid "Add category"
+msgstr "Adicionar categoria"
+
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+msgid "View"
+msgstr "Ver"
