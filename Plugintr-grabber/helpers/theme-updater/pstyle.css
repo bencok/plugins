@@ -1,0 +1,16 @@
+
+
+p {
+	margin:0 0 10px 0;
+}
+
+h1, h2, h3 {
+	margin:0 0 15px 0;
+}
+
+article {
+	background:#000;
+	color:#fff;
+	margin:14% 0 0 6%;
+	padding:2%;
+}
